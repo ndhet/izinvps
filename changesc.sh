@@ -47,17 +47,17 @@ case "$x" in
    
    2 | 02)
    clear
-   rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/myridwan/sc/ipuk/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+   rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/ndhet/sc/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
    ;;
    
    3 | 03)
    clear
    read -n 1 -s -r -p "Chat Admin Ridwan Store Via Tele ID Tele : @r1f4n_112"
-   apt update && apt upgrade -y && wget https://raw.githubusercontent.com/MyRidwan/izinvps/ipuk/setup.sh && chmod +x setup.sh && ./setup.sh
+   apt update && apt upgrade -y && wget https://raw.githubusercontent.com/ndhet/izinvps/main/setup.sh && chmod +x setup.sh && ./setup.sh
    ;;
    4 | 04)
    clear
-   apt update && apt upgrade -y && wget https://raw.githubusercontent.com/myridwan/xray/ipuk/install.sh && chmod +x install.sh && ./install.sh
+   apt update && apt upgrade -y && wget https://raw.githubusercontent.com/ndhet/xray/main/install.sh && chmod +x install.sh && ./install.sh
    ;;
    *)
    xdrg
